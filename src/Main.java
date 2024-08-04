@@ -53,7 +53,7 @@
                 var totalPeople = generalHours / peopleHours;
                 System.out.println("Всего работников в компании - " + totalPeople + " человек");
                 totalPeople = totalPeople + 94;
-                var peopleHours2 = generalHours / totalPeople;
-                System.out.println("Если в компании работает " + totalPeople + " человека, то всего " + peopleHours2 + " часа работы может быть поделено между сотрудинками");
+                var generalHours2 = peopleHours * totalPeople;
+                System.out.println("Если в компании работает " + totalPeople + " человека, то всего " + generalHours2 + " часа работы может быть поделено между сотрудинками");
             }
         }
